@@ -3,32 +3,32 @@
   "short_name": "nebiki",
   "icons": [
     {
-      "src": "./img/icon.png",
+      "src": "img/icon.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "./img/icon-128.png",
+      "src": "img/icon-128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "./img/icon-180.png",
+      "src": "img/icon-180.png",
       "type": "image/png",
       "sizes": "180x180"
     },
     {
-      "src": "./img/icon-192.png",
+      "src": "img/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./img/icon-256.png",
+      "src": "img/icon-256.png",
       "type": "image/png",
       "sizes": "256x256"
     },
     {
-      "src": "./img/icon-512.png",
+      "src": "img/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
