@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<script>
+			// この記述を追記
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker
+						.register('/service-worker.js')
+						.then(function() { console.log('Service Worker Registered'); });
+			}
+			// この記述を追記　ここまで
+		</script>
+		<link rel="manifest" href="/manifest.json" crossorigin="use-credentials"/>
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/img/icon.png" sizes="96x96">
+		<link rel="apple-touch-icon" href="/img/icon-128.png" sizes="128x128">
+		<link rel="apple-touch-icon" href="/img/icon-180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="/img/icon-192.png" sizes="192x192">
+		<link rel="apple-touch-icon" href="/img/icon-256.png" sizes="256x256">
+		<link rel="apple-touch-icon" href="/img/icon-512.png" sizes="512x512">
+		<title>Test Page</title>
+	</head>
+	<body>
+		This is Test Page.
+	</body>
+</html>
